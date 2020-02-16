@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.im1{
+  width:260px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.im2{
+  width: 10%;
+  margin: 0 auto;
+  padding: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pragraphs{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 0 25px;
+}
+.pragraphs>p{
+  color: grey;
+}
+.midd{
+  width: 60%;
+  margin: 0 auto;
+  
+}
+.navglobal{
+padding: 20px 0px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+background-color: white;
+position: fixed;
+z-index: 999999;
+
+}
+.lien{
+  margin-right: 20px;
+}
+.lien2{
+  list-style-type: none;
+}
+.hhh{
+  padding: 9px;
+  display: block;
+  margin-left: 0;
+  color: black;
+  
+}
+.list{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style-type: none;
+}
+a{
+  text-decoration: none;  
+}
+.lit{
+  position: relative;
+  display: flex;
+  list-style-type: none;
+}
+
+.displ{
+  display: none;
+  background-color: aqua;
+  /* padding: 0%;  */
+  position: absolute;
+  margin: 0%;
+  top: 100%;
+  left: 50px; 
+}
+.lien:hover .displ{
+  display: block;
+}
+ .villes{ 
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   
+}
+.vilbutton{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-btn{
+width: 95px;
+height: 40px;
+background-color: blue;
+color: white;
+border-radius: 6px;
+}
+.immm{
+  border-radius: 6px;
+}
+.phrase{
+  color: #00b39b;
+}
+.center{
+  text-align: center;
+  width:40%;
+  margin: 0 auto;
+}
+.center>h1{
+  color: #00b39b;
+}
+.center>p{
+color: lightgrey;
+}
+.squat{
+ border: 1px solid white;
+ text-align: center;
+ width: 230px;
+ height: 250px;
+ margin: 10px ; 
+ background-color: white;
+ border-radius: 6px;
+}
+.squat>h3{
+color:#00b39b ;
+}
+.squat>p{
+  color:#00b39b ;
+  }
+.gquatrename{
+  display: flex;
+}
+.quatro{
+  width:50%;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.squatlab{
+  margin-top: 20px;
+}
+.gquatrename{
+
+  background-color: paleturquoise;
+}
+.phras{
+  color:#00b39b ;
+}
+.simple{
+  margin: 20px;
+}
+.simple>p{
+  color:#00b39b ;
+
+}
+.simple>img{
+  margin-top: 80px;
+  width: 300px;
+  height:300px ;
+}
+.vects{
+display: flex;
+align-items: center;
+}
+.vects>h1{
+  color: #00b39b;
+  margin-left: 20px;
+}
+.vecc{
+  width: 60%;
+  fill: #00b39b;
+}
+.section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.onebox1{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    border-radius: 6px;
+    width: 500px;
+}
+.onebox1>img{
+  position: absolute;
+  left: 30%;
+  top: 200px;
+
+}
+
+
+.onebox>h1{
+  color:white ;
+}
+.onebox>p{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+select {
+    width: 130px;
+    height: 50px;
+    margin-left: 40px;
+    background-color: papayawhip;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #00ccb1;
 }
+.boxcolo {
+  background-color: #00ccb1;
+}
+.box1colo{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: blue;
 }
